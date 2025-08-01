@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>That's so Ro - Custom Love Letters</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fff0f5;
+      color: #5a2a46;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d66a91;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-family: 'Georgia', serif;
+    }
+    nav {
+      background-color: #f7cbd0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 0;
+      font-weight: bold;
+    }
+    nav a {
+      color: #5a2a46;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .cta-button {
+      display: block;
+      background-color: #d66a91;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.3em;
+      border-radius: 30px;
+      cursor: pointer;
+      margin: 0 auto 50px auto;
+      width: 220px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .cta-button:hover {
+      background-color: #b04c6c;
+    }
+    footer {
+      background-color: #f7cbd0;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #5a2a46;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>That's so Ro</header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>Welcome to That's so Ro</h2>
+      <p>Heartfelt, personalized love letters crafted just for you to express your deepest feelings this Valentine’s Day and beyond.</p>
+    </section>
+    <section id="services">
+      <h2>What I Offer</h2>
+      <p>Custom love letters written with care and tailored to your unique relationship. Whether it’s your first Valentine’s or your tenth, let me help you say it perfectly.</p>
+      <a href="#contact" class="cta-button">Order Your Letter</a>
+    </section>
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Ready to make your Valentine’s Day unforgettable? Reach out and let’s create something beautiful together.</p>
+      <p>Email: <a href="mailto:contact@thatssoro.com">contact@thatssoro.com</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 That's so Ro — All rights reserved
+  </footer>
+</body>
+</html>
